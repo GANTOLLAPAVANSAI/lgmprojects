@@ -1,0 +1,5 @@
+console.log("5-7:js")
+console.log("8-9:dsa class")
+console.log("9-10:rest")
+console.log("10-11:code practice")
+console.log("7am-8am:infytq")

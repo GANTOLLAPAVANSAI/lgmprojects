@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            background-color: blueviolet;
+        }
+        p{
+            border:solid pink 2px;
+            width:300px
+        }
+        
+    </style>
+    <script>
+        function myfunction(){
+            document.getElementById('name').innerHTML="Clicked on "+ button.value;
+            document.getElementById('name').style.backgroundColor="grey";
+        }
+    </script>
+</head>
+<body>
+<h1>MODIFY THE DOM</h1>
+<button type="button" onclick="myfunction()">First</button>
+<button type="button" onclick="myfunction()">Second</button>
+<p>This code shouldnt change</p>
+<p id="name">This will change</p>
+<p>This code shouldnt change</p>
+</body>
+</html>
